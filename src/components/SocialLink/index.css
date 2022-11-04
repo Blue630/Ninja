@@ -1,0 +1,18 @@
+.btn-social--link {
+  height: 62px;
+  width: 62px;
+  margin: 1rem 0;
+  border-radius: 50% !important;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn-social > svg {
+  position: absolute;
+  left: 1rem;
+}

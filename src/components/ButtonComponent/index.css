@@ -1,0 +1,29 @@
+.btn-social {
+  height: 62px;
+  margin: 1rem 0;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s;
+}
+
+@keyframes animation {
+  0%   {transform: scale(1.2);}
+  100%   {transform: scale(1);}
+}
+.page-main--btn {
+  animation: animation 2s linear 2s infinite alternate;;
+}
+
+.btn-social:hover {
+  color: #6ed0f8
+}
+
+.btn-social > svg {
+  position: absolute;
+  left: 1rem;
+}
